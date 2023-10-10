@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(40,40,40);
+    height:100vh;
+}
+.container-clock{
+    /* 置中 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: 3px solid lightgreen;
+    color: lightgreen;
+    width: 340px;
+    padding: 20px;
+    border-radius: 90px;
+    transition: 0.5s;
+}
+.container-clock:hover{
+    background-color: lightgreen;
+    color: black;
+    box-shadow: 0;
+}
+
+.time{
+    font-size: 30px;
+    font-weight: border;
+    text-align: center;
+}
+.date{
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-weight: border;
+}
